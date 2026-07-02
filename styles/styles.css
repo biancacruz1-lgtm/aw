@@ -1,0 +1,33 @@
+label {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(12, 90, 12);
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(12, 90, 12);
+}
+
+
+#tabela {
+    text-align: center;
+    background-color: rgb(173, 236, 173);
+}
+
+.negrito {
+    font-weight:bold;
+}
+
+p.courier {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1, h2, h3 {
+    font-style: italic;
+}
+
+ button {
+    color: rgb(62, 161, 62);
+}
+form button {
+    background-color: darkolivegreen;
+}
