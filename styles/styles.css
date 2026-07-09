@@ -1,33 +1,69 @@
-label {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(12, 90, 12);
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap");
+
+:root {
+  /* --- */
+  --emerald: #52b56b;
+  --cherryblossom:#ffb0c8;
+  --blushrose:#ca6689;
+  --cottonrose:#ffd1d5;
+  --bubblegumtint:#E58BA9;
+  --mutedolive:#B5CE8F;
+}
+
+body {
+  font-family: "Edu SA Hand", "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(12, 90, 12);
+  font-family: "Edu SA Hand", "Times New Roman", Times, serif;
+  color: #21A241;
 }
 
+label {
+  font-family: "Edu SA Hand", "Times New Roman", Times, serif;
+  color: #21A241;
+}
+
+select  {
+  font-family: "Edu SA Hand", "Times New Roman", Times, serif;
+  color:#21A241;
+}
+
+option  {
+  font-family: "Edu SA Hand", "Times New Roman", Times, serif;
+  color:#21A241;
+}
 
 #tabela {
-    text-align: center;
-    background-color: rgb(173, 236, 173);
+  color: #CA6689;
+  text-align: center;
+  background-color: #FFB0C8;
 }
 
 .negrito {
-    font-weight:bold;
+  font-weight: bold;
 }
 
 p.courier {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-h1, h2, h3 {
-    font-style: italic;
+h1,
+h2,
+h3 {
+  font-style: italic;
 }
 
- button {
-    color: rgb(62, 161, 62);
+button {
+  color: rgb(62, 161, 62);
 }
 form button {
-    background-color: darkolivegreen;
+  background-color:#21A241;
 }
