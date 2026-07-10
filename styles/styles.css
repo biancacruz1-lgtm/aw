@@ -8,6 +8,7 @@
   --cottonrose:#ffd1d5;
   --bubblegumtint:#E58BA9;
   --mutedolive:#B5CE8F;
+  --brancorosado:#ffeff2;
 }
 
 body {
@@ -19,6 +20,11 @@ h1 {
 }
 
 h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #52b56b;
+}
+
+h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -52,6 +58,10 @@ option  {
   font-weight: bold;
 }
 
+.radio {
+  color: var(--blushrose);
+}
+
 p.courier {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -62,8 +72,18 @@ h3 {
 }
 
 button {
-  color: rgb(62, 161, 62);
+  color: #21A241;
 }
 form button {
   background-color:#21A241;
+}
+
+img {
+  height: 20rem;
+  border-radius: 10px;
+}
+
+#laufey {
+  eight: 20rem;
+  border-radius: 50;
 }
