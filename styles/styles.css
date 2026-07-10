@@ -1,22 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=swap");
 
 :root {
-  /* --- */
   --emerald: #52b56b;
-  --cherryblossom:#ffb0c8;
-  --blushrose:#ca6689;
-  --cottonrose:#ffd1d5;
-  --bubblegumtint:#E58BA9;
-  --mutedolive:#B5CE8F;
-  --brancorosado:#ffeff2;
+  --cherryblossom: #ffb0c8;
+  --blushrose: #ca6689;
+  --cottonrose: #ffd1d5;
+  --bubblegumtint: #e58ba9;
+  --mutedolive: #b5ce8f;
+  --brancorosado: #ffeff2;
 }
 
 body {
   font-family: "Edu SA Hand", "Times New Roman", Times, serif;
+  color: #52b56b;
+  padding: 50px;
+}
+
+* {
+  margin:0 ;
+  padding:0 ;
+  box-sizing: border-box;
 }
 
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: #52b56b;
 }
 
 h2 {
@@ -26,32 +34,43 @@ h2 {
 
 h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: #52b56b;
+}
+
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #52b56b;
 }
 
 p {
   font-family: "Edu SA Hand", "Times New Roman", Times, serif;
-  color: #21A241;
+  color: #21a241;
+}
+
+li {
+   font-family: "Edu SA Hand", "Times New Roman", Times, serif;
+  color: #21a241;
 }
 
 label {
   font-family: "Edu SA Hand", "Times New Roman", Times, serif;
-  color: #21A241;
+  color: #21a241;
 }
 
-select  {
+select {
   font-family: "Edu SA Hand", "Times New Roman", Times, serif;
-  color:#21A241;
+  color: #21a241;
 }
 
-option  {
+option {
   font-family: "Edu SA Hand", "Times New Roman", Times, serif;
-  color:#21A241;
+  color: #21a241;
 }
 
 #tabela {
-  color: #CA6689;
+  color: #ca6689;
   text-align: center;
-  background-color: #FFB0C8;
+  background-color: #ffb0c8;
 }
 
 .negrito {
@@ -72,10 +91,10 @@ h3 {
 }
 
 button {
-  color: #21A241;
+  color: #21a241;
 }
 form button {
-  background-color:#21A241;
+  background-color: #21a241;
 }
 
 img {
@@ -84,6 +103,56 @@ img {
 }
 
 #laufey {
-  eight: 20rem;
+  height: 20rem;
   border-radius: 50;
 }
+
+#nav-sections {
+  margin: 15px 30 px 50px 25px;
+  padding: 15px 30 px 50px 25px;
+}
+
+#nav-sections ul {
+  list-style-type: none;
+}
+
+#nav-sections li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ca6689;
+  background: #ffb0c8;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #ca6689;
+  box-shadow: 0 0 10px #ffb0c8;
+}
+
+#nav-links {
+  color:#ffb0c8;
+  background-color:#ffd1d5 ;
+}
+
+ a {
+  text-decoration: none;
+  font-weight: bold;
+  color:var(--brancorosado) ;
+  background: var(--cherryblossom);
+  border-radius: 5px;
+}
+
+#corpo {
+  background-color:#ffeff2
+}
+
+#maior {
+  color:#52b56b ;
+  background-color:#ffd1d5;
+}
+
+
