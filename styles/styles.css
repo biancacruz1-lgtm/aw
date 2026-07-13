@@ -118,6 +118,7 @@ img {
 
 #nav-sections li {
   display: inline-block;
+  padding: 15px 2px 10px;
 }
 
 a {
@@ -150,9 +151,14 @@ a:hover {
   background-color:#ffeff2
 }
 
-#maior {
+.fonte-maior {
   color:#52b56b ;
   background-color:#ffd1d5;
+  border: #e58ba9;
 }
 
+.teste-espacamento {
+  background-color: var(--cottonrose);
+  padding: 10px 25px 10px;
+}
 
