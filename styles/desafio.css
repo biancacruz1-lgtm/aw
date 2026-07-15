@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 :root {
   --pinkorchid: #D1B1C8;
+  --pinkie: #ffd0f2;
   --amethystsmoke: #AB8BC9;
   --powderblue: #B1B7D1;
+  --skyyblue: #e1e6fd;
   --lavandergray: #828AB6;
   --grapesoda: #7B4A6C;
   --blackberrycream: #623156;
+  --pinkpressure:#ca6689;
+}
+
+body{
+  font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: var(--blackberrycream);
+    background-color: var(--skyyblue);
+    margin:0;
 }
 
 .titulo {
@@ -25,22 +42,36 @@
 #parag{
 color: var(--blackberrycream);
   font-family: "Saira Stencil", sans-serif; 
-  font-weight: 400;
+  font-weight: 700;
   background-color: #B1B7D1;
   padding: 0px 10px 10px;
+  margin-top:-20px;
 }
 
 #head{
   color: var(--blackberrycream);
   background-color: #B1B7D1;
   padding: 30px 15px 20px;
+  border-radius: 20px 20px 20px;
 }
+
+#rodape {
+  background-color: var(--powderblue);
+  color: var(--grapesoda);
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+
 
 #nav-links ul {
   list-style-type: none;
-  margin-top: 30px;
-  padding-bottom: 20px;
-  border: 1px solid;
+  margin-top: -50px;
+  margin-left:-20px;
+  padding-bottom: 0px;
+  display: inline-block;
+  padding: 8px 16px;
 }
 
 #nav-links li {
@@ -49,12 +80,72 @@ color: var(--blackberrycream);
 }
 
  a {
-  font-family: "Saira Stencil", sans-serif;
-  text-decoration:none;
+  font-family: "Saira stencil", sans-serif;
+  text-decoration: none;
   font-weight: 400;
   font-style: normal;
-  color:var(--blackberrycream);
-  background-color:var(--pinkorchid);
+  display: inline-block;
+  padding: 0px 16px; 
+  margin: 5px 0; 
+  color: var(--blackberrycream);
+  background-color: var(--pinkorchid);
+  border: 2px solid var(--blackberrycream); 
   border-radius: 5px;
-  
  }
+
+ a:hover {
+  color: #ca6689;
+  box-shadow: 0 0 10px var(--amethystsmoke);
+}
+
+#inicio {
+  background-color:var(--pinkie);
+  border-left: 5px solid var(--pinkpressure);
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.titulo-secao {
+  font-family: "Genos", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  background-color: var(--powderblue);
+  display: inline-block;
+  border:2px solid #AB8BC9;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#contato {
+  background-color:var(--pinkorchid);
+  color: #623156;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 30px;
+  padding: 10px;
+}
+
+.card-programa {
+  font-family: "Genos", sans-serif;
+  font-weight: 500;
+  background-color:var(--pinkorchid);
+  border: 1px solid var(--amethystsmoke);
+  border-radius: 8px;
+  padding:15px;
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+.card-programa h3 {
+  font-family:  "Genos", sans-serif;
+  color: #7B4A6C;
+  font-size: 20px;
+  font-weight: 500;
+}
