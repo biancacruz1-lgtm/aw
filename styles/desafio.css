@@ -67,11 +67,8 @@ color: var(--blackberrycream);
 
 #nav-links ul {
   list-style-type: none;
-  margin-top: -50px;
-  margin-left:-20px;
-  padding-bottom: 0px;
-  display: inline-block;
-  padding: 8px 16px;
+  padding: 10px 0px;
+  margin:20px 0;
 }
 
 #nav-links li {
@@ -79,21 +76,28 @@ color: var(--blackberrycream);
   padding-left: 10px;
 }
 
- a {
+ #nav-links a {
   font-family: "Saira stencil", sans-serif;
   text-decoration: none;
   font-weight: 400;
   font-style: normal;
   display: inline-block;
-  padding: 0px 16px; 
-  margin: 5px 0; 
+  padding: 5px 15px; 
+  margin: 0 8px; 
   color: var(--blackberrycream);
   background-color: var(--pinkorchid);
-  border: 2px solid var(--blackberrycream); 
+  border: 1px solid var(--blackberrycream); 
   border-radius: 5px;
- }
+  transition: transform 0.2s ease;
+}
 
- a:hover {
+
+#nav-links a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+ #nav-links a:hover {
   color: #ca6689;
   box-shadow: 0 0 10px var(--amethystsmoke);
 }
@@ -115,9 +119,14 @@ color: var(--blackberrycream);
   background-color: var(--powderblue);
   display: inline-block;
   border:2px solid #AB8BC9;
-  border-radius: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  border-radius: 10px;
+  border-bottom:10px;
+  padding-top:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom:3px solid #7B4A6C;
+  margin-top:30px;
+  margin-bottom:20px;
 }
 
 #contato {
@@ -125,11 +134,7 @@ color: var(--blackberrycream);
   color: #623156;
   font-weight: 600;
   display: inline-block;
-  margin-top: 30px;
   border-radius: 10px;
-  padding-left: 5px;
-  padding-right: 30px;
-  padding: 10px;
 }
 
 .card-programa {
@@ -138,8 +143,8 @@ color: var(--blackberrycream);
   background-color:var(--pinkorchid);
   border: 1px solid var(--amethystsmoke);
   border-radius: 8px;
-  padding:15px;
-  margin: 15px 0;
+  padding:15px 25px;
+  margin-bottom: 15px;
   font-size: 15px;
 }
 
@@ -147,5 +152,12 @@ color: var(--blackberrycream);
   font-family:  "Genos", sans-serif;
   color: #7B4A6C;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
+}
+
+#inicio,
+#progamacao,
+#contato {
+  padding:20px;
+  margin:30px 0;
 }
